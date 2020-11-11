@@ -1,0 +1,418 @@
+@charset "utf-8";
+
+#flash {
+	width:     950px;
+	height:    400px;
+	clear:      both;
+	margin:10px auto 0;
+	background: url(../img/top/swf_bg.jpg) no-repeat 0 bottom;
+	}
+#flash a:link 	  { color: #FFFFFF; text-decoration: none; font-weight:bold; }
+#flash a:active   { color: #FFFFFF; text-decoration: none; font-weight:bold; }
+#flash a:visited  { color: #FFFFFF; text-decoration: none; font-weight:bold; }
+#flash a:hover    { color: #FFFFFF; text-decoration: underline; font-weight:bold; }
+
+#main_banner {
+	width:   950px;
+	height:   70px;
+	margin: 10px auto;
+	}
+	
+	#main_banner .left {
+		float:  left;
+		width: 536px;
+		height: 70px;
+		}
+	#main_banner .right {
+		float:right;
+		width: 400px;
+		height: 70px;
+		}
+
+#main_contents {
+	width:   950px;
+	height:  407px;
+	margin: 0 15px 10px;
+	}
+	
+	#main_contents .left {
+		float:  left;
+		text-align:center;
+		width: 534px;
+		height:407px;
+		border-left:1px solid #CCCCCC;
+		border-right:1px solid #CCCCCC;
+		background:url(../img/top/info_bottom.gif) no-repeat 0 bottom;
+		}
+	#main_contents .right {
+		float:right;
+		width: 398px;
+		height:407px;
+		border-left:1px solid #CCCCCC;
+		border-right:1px solid #CCCCCC;
+		background:url(../img/top/info_bottom.gif) no-repeat 0 bottom;
+		}
+
+#intro_tbl {
+	margin: 0 auto;
+	font-size:11px;
+	}
+
+	#intro_tbl th {
+		padding: 5px 0 5px 5px;
+		text-align: left;
+		vertical-align: middle;
+		border-bottom: 1px dashed #CECECE;
+		}
+	
+	#intro_tbl tr {
+		border-bottom: 1px dashed #CECECE;
+		}
+
+	#intro_tbl td {
+		padding: 5px 0;
+		text-align: left;
+		vertical-align: middle;
+		border-bottom: 1px dashed #CECECE;
+		}
+		
+#intro_name {
+	font-size:12px;
+	min-width: 100px;
+	line-height:150%;
+	font: bold "ＭＳ ゴシック", "Osaka－等幅";
+	/*background: url(../img/top/intro_arrow.gif) no-repeat;*/
+	}
+	#intro_name a:link 	  { color: #006600; text-decoration: underline; font-weight:bold; }
+	#intro_name a:active   { color: #006600; text-decoration: none; font-weight:bold; }
+	#intro_name a:visited  { color: #006600; text-decoration: none; font-weight:bold; }
+	#intro_name a:hover    { color: #666666; text-decoration: none; font-weight:bold; }
+
+#gMap {
+	width:   910px;
+	height:  400px;
+	margin: 15px auto;
+	padding:1px;
+	background-color:#CCCCCC;
+	}
+	
+#access {
+	width:   890px;
+	padding:10px;
+	background-color:#F3F3F3;
+	border: 1px solid #CCCCCC;
+	}
+
+#access li {
+	font-size:14px;
+	width: auto;
+	float: left;
+	margin: 0;
+	padding: 0 10px 0 20px;
+	font-weight:bold;
+	text-shadow: 1px 1px 0 #FFFFFF;
+	background: url(../img/access/route.gif) 3px no-repeat;
+	}
+	
+#access_tbl {
+	border:0;
+	font-size:13px;
+	background-color:#FFFFFF;
+	padding:5px;
+	margin:10px 15px;
+	vertical-align:middle;
+	border-top:3px solid #E7E7E7;
+	border-left:4px solid #CCCCCC;
+	border-right:4px solid #CCCCCC;
+	border-bottom:3px solid #E7E7E7;
+	text-align: left;
+	}
+	
+#access_tbl dt {
+	color:#000000;
+	font-size:14px;
+	padding:0;
+	margin:0;
+	}
+
+#access_tbl dd {
+	font-size:12px;
+	padding-left:55px;
+	margin-left:55px;
+	}
+
+table.gmap_marker 	{
+	width:320px;
+	margin-left:300px;
+}
+
+table.gmap_marker p	{
+	line-height:150%;
+	padding-top:10px;
+	margin:0;
+}
+
+table.gmap_marker th p{
+	padding-top:11px;
+	margin-left:32px;
+	font-size:12px;
+	color:#0066FF;
+}
+
+table.gmap_marker td p{
+	padding-top:11px;
+	margin-left:32px;
+	font-size:12px;
+	color:#006600;
+	font-weight:bolder
+}
+
+table.gmap_marker th img	{
+	float:left;
+}
+
+table.gmap_marker td img	{
+	float:left;
+}
+
+#access_icon_text {
+	float:left;
+	width:   100px;
+	font-size:12px;
+	font-weight:bolder;
+	color:#000099;
+	}
+
+.arrow {
+	width: 29px;
+	padding:0 5px 0 15px;
+	font-weight:bold;
+	text-shadow: 1px 1px 0 #FFFFFF;
+	background: url(../img/access/arrow.gif) 3px no-repeat;
+	background-color:#FFFFFF;
+	margin-left: 10px;
+	}
+
+.access_tbl_left {
+	padding:25px; 
+	line-height:180%; 
+	font-size:14px;
+	font-weight:bold;
+	color:#838383;
+	}
+	
+.access_tbl_right {
+	padding:25px; 
+	line-height:180%; 
+	font-size:14px;
+	}
+
+.access_tbl_left2 {
+	vertical-align:top;
+	padding:10px 0 0 10px; 
+	font-size:13px;
+	line-height:150%; 
+	color:#8C8C8C;
+	border-bottom: 1px dashed #CECECE
+	}
+	
+.access_tbl_right2 {
+	vertical-align:top;
+	padding:10px; 
+	font-size:13px;
+	line-height:150%; 
+	border-bottom: 1px dashed #CECECE
+	}
+
+.access_tbl_center {
+	padding:25px 25px 0; 
+	line-height:180%; 
+	font-size:14px;
+	font-weight:bold;
+	color:#838383;
+	}
+	
+.years {
+	width:26px;
+	height:130px;
+	}
+
+#sub_menu {
+	width: 980px;
+	margin: 0 auto;
+	padding: 0;
+	text-align:center;
+	text-shadow: 1px 1px 0 #FFFFFF;
+	font-size: 13px;
+	}
+	#sub_menu a:link 	  { color: #666666; text-decoration: underline; }
+	#sub_menu a:active   { color: #006600; text-decoration: none; }
+	#sub_menu a:visited  { color: #666666; text-decoration: none; }
+	#sub_menu a:hover    { color: #006600; text-decoration: none; }
+
+
+#page_top {
+	width:910px;
+	height:20px;
+	}
+
+#magazine_img {
+	width:80px;
+	height:114px;
+	border: 1px solid #CCCCCC;
+	float:left;
+	margin:0 15px 0 5px;
+	}
+
+#facility_center {
+	margin-left:35px;
+	width:720px;
+	}
+	#facility_center_left {
+	width:300px;
+	float:left;
+	}
+	#facility_center_right {
+	width:410px;
+	float:right;
+	}
+	#facility_center_pdf-list_left {
+	width:60px;
+	height:30px;
+	text-align:center;
+	border-bottom:1px dashed #CECECE;
+	padding-top:10px;
+	}
+
+#pdf_list {
+	margin-left:35px;
+	font:HGMaruGothicMPRO;
+	text-align:left;
+	}
+	#pdf_list_noinfo_200px {
+	width:300px;
+	}
+	#pdf_list_info {
+	border-bottom: 1px dashed #CECECE;
+	width:50px;
+	}
+	#pdf_list_info_main {
+	border-bottom: 1px dashed #CECECE;
+	width:420px;
+	text-align:left;
+	font-size:16px;
+	}
+
+#yakiniku {
+	margin-left:100px;
+	width:600px;
+	}
+	#facility_center_left {
+	width:300px;
+	float:left;
+	}
+	#facility_center_right {
+	width:410px;
+	float:right;
+	}
+
+.schedule {
+	text-align:center;
+	margin-top:10px
+	}
+.schedule th {
+	line-height: 150%; 
+	background-color: #FFF8F0; 
+	color: #333333; 
+	font-size:12px
+}
+.schedule td {
+	line-height: 130%; 
+	background-color: #ffffff; 
+	font-size:12px;
+}
+.schedule_div {
+	text-align:left;
+	margin:5px 0 5px 10px;
+	line-height: 150%
+	}
+.schedule_div2 {
+	text-align:left;
+	margin:5px 0 5px 10px;
+	font-size:14px;
+	line-height: 180%
+	}
+.schedule_div_center {
+	text-align:center;
+	margin:10px 10px;
+	font-size:14px;
+	line-height: 180%
+	}
+.schedule_div_center2 {
+	text-align:center;
+	margin:5px;
+	line-height: 150%
+	}
+.schedule_div_center3 {
+	text-align:center;
+	margin:10px;
+	font-size:14px;
+	line-height: 180%;
+	color:#000000
+	}
+	
+	
+#name1 {
+	line-height: 150%; 
+	color: #333333; 
+	font-size:12px;
+	text-align:left;
+	padding-left:30px
+}
+	
+#contact {
+	width:   660px;
+	height:   20px;
+	margin: 20px auto;
+	font-size:24px;
+	border:0
+	}
+	
+	#contact_left {
+		float:  left;
+		width: 315px;
+		}
+	#contact_right {
+		float:right;
+		width: 315px;
+		}
+#subtitle {
+	text-align:left;
+	margin:15px 10px 0;
+	font-size:14px;
+	line-height: 180%;
+	color:#006600
+	}
+	#subtitle_under {
+		text-align:left;
+		padding:0 0 15px 25px;
+		font-size:14px;
+		line-height: 180%;
+		font-weight:lighter;
+		color:#333333;
+	 	border-bottom: 1px dashed #CECECE
+ 		}
+
+#facility_info {
+		text-align:left;
+		margin-left:60px;
+		line-height:150%;
+		color:#000000;
+		}
+
+.green {
+	color:#006600
+	}
+.black {
+	color:#333333
+	}

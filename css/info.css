@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+a:link 	   { color: #007D00; text-decoration: underline; font-weight:bold; }
+a:active   { color: #666666; text-decoration: none; }
+a:visited  { color: #666666; text-decoration: underline; }
+a:hover    {
+	color: #F00;
+	text-decoration: underline;
+}
+
+body {
+	margin:		0;
+	padding:	0;
+	font-size: 	12px;
+	color:		#666666;
+	font-family: "Lucida Grande","Hiragino Kaku Gothic Pro","�q���M�m�p�S Pro W3","�l�r �o�S�V�b�N", Osaka,"�l�r �o�S�V�b�N",sans-serif;
+	}
+
+dt {
+	min-width: 100px;
+	padding: 0 0 3px 14px ;
+	font: bold "ＭＳ ゴシック", "Osaka－等幅";
+	background: url(../img/top/intro_arrow.gif) no-repeat;
+	}
+	dt a:link 	  { color: #666666; text-decoration: underline; font-weight:bold; }
+	dt a:active   { color: #666666; text-decoration: none; font-weight:bold; }
+	dt a:visited  { color: #666666; text-decoration: none; font-weight:bold; }
+	dt a:hover    { color: #666666; text-decoration: none; font-weight:bold; }
+
+dd {
+	float: left;
+	margin-left: 13px;
+	font-size:11px;
+	color: #000000;
+	}
+
+* html .dd { /*IE6 only rule, applied on top of the default above*/	margin-left: 7px;}
+	
+#info_tbl {
+	margin: 5px 0 20px 10px;
+	font-size:12px;
+	}
+
+	#info_tbl th {
+		padding: 5px 0 5px 5px;
+		text-align: left;
+		vertical-align: middle;
+		border-bottom: 1px dashed #CECECE;
+		}
+		
+	* html #info_tbl th { /*IE6 only rule, applied on top of the default above*/
+		padding: 5px 0;
+		text-align: left;
+		vertical-align: middle;
+		border-bottom: 1px dashed #CECECE;
+		}
+
+	#info_tbl td {
+		padding: 5px;
+		text-align: left;
+		vertical-align: middle;
+		border-bottom: 1px dashed #CECECE;
+		}
+		
+	* html #info_tbl td { /*IE6 only rule, applied on top of the default above*/
+		padding: 5px 5px 5px 0;
+		text-align: left;
+		vertical-align: middle;
+		border-bottom: 1px dashed #CECECE;
+		}
